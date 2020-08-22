@@ -6,3 +6,4 @@ export const defaultDatabaseOption = {
   path: pathName,
   deleteRealmIfMigrationNeeded: true,
 };
+
