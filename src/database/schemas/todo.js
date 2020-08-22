@@ -1,9 +1,8 @@
 /* eslint-disable prettier/prettier */
-import Realm from 'realm';
 
 import {TODO_SCHEMA} from './schemaNames';
 
-const todoSchema = {
+export const todoSchema = {
   name: TODO_SCHEMA,
   primaryKey: 'id',
   properties: {
